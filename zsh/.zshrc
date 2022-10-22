@@ -111,6 +111,8 @@ export PAGER=most
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias  nano="nano -m"
 alias  mc="mc -x"
+alias ls="ls -lh"
+alias df="df -h"
 
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=08'
 

@@ -17,6 +17,7 @@ export ZSH="/home/bhawkins/.oh-my-zsh"
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="powerlevel10k/powerlevel10k"
 # ZSH_THEME="monkeyangst"
+# ZSH_THEME="aussiegeek"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -78,7 +79,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git docker zsh-syntax-highlighting)
+plugins=(git docker zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -111,7 +112,7 @@ export PAGER=most
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias  nano="nano -m"
 alias  mc="mc -x"
-alias ls="ls --color -lh"
+alias ls="ls --color"
 alias df="df -h"
 
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=08'

@@ -1,0 +1,3 @@
+include "/home/bhawkins/.config/nano/*.nanorc"
+set tabsize 2
+set tabstospaces

@@ -46,4 +46,4 @@ zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([0-9]#)*=0=01;31'
 zstyle ':completion:*:kill:*' command 'ps -u $USER -o pid,%cpu,tty,cputime,cmd'
 
 # This plugin must be loaded LAST.
-zsh_add_plugin "zsh-syntax-highlighting"
+# zsh_add_plugin "zsh-syntax-highlighting"
